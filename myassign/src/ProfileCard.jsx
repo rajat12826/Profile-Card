@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import { FaTwitter, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
-import { SiDevdotto } from "react-icons/si";
+
 
 export default function ProfileCard() {
     const[user,setuser]=useState(null)
