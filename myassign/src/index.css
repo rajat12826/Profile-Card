@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "product";
+    src: url("./Product.ttf");
+  }
+@property --border-angle {
+    inherits: false;
+    initial-value: 0deg;
+    syntax: '<angle>';
+}
